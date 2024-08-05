@@ -243,5 +243,5 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ./Xray-${{ env.ASSET_NAME }}.zip*
-          tag: ${{ github.ref }}
+          tag: latest
           file_glob: true
